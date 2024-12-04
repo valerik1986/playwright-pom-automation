@@ -1,0 +1,15 @@
+{
+  "name": "atleta-playwright-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "atletaRegressionSuiteSafari": "npx playwright test --project=safari",
+    "atletaRegressionSuiteChrome": "npx playwright test --project=chrome",
+    "atletaRegressionSuiteFirefox": "npx playwright test --project=firefox",
+    "atletaRegressionSuiteWithReport": "npx playwright test --reporter=html"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.0.0",
+    "mocha": "^10.0.0",
+    "chai": "^4.3.0"
+  }
+}
